@@ -40,7 +40,7 @@ class ScreenHome extends StatelessWidget {
                   kHeight5,
                   MainTitleCard(
                     title: 'Trending Now',
-                     url: imageBaseUrl,
+                     url: trendingUrls, 
                   ),
                   kHeight5,
                   NumberTitleCard(url: top10),
